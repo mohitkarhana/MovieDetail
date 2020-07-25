@@ -1,0 +1,33 @@
+
+<form action="myblog" method="post">
+{% csrf_token %}
+{{ form.as_p }}
+
+    <input type="submit" value=Submit">
+</form>
+
+
+
+
+<form action="getdata" method="get"><br><br><br>
+      <label for="movie_name">Enter movie name to search:</label><br>
+  <input type="text" id="movie_name" name="movie_name"><br>
+    <input type="submit" value=Submit">
+</form>
+
+<!--  <label for="movie_name">movie name:</label><br>-->
+<!--  <input type="text" id="movie_name" name="movie_name"><br>-->
+
+<!--  <label for="movie_description">movie description:</label><br>-->
+<!--  <input type="text" id="movie_description" name="movie_description"><br>-->
+
+<!--  <label for="movie_created_date">Created Date:</label>-->
+<!--  <input type="date" id="movie_created_date" name="movie_created_date"><br>-->
+
+<!--    <label for="movie_release_date">Created Date:</label>-->
+<!--  <input type="date" id="movie_release_date" name="movie_release_date"><br>-->
+
+<!--  <label for="movie_poster">image:</label>-->
+<!--   <input type="image" id="movie_poster" src="img_submit.gif" alt="movie_poster" width="48" height="48"><br>-->
+
+
